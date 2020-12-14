@@ -1,0 +1,191 @@
+.header{
+    background-color: #007765;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 84px;
+    align-items: center;
+}
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+.content{
+    width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu > a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff
+
+}
+.bg1{
+    margin-top: 84px;
+    display: flex;
+    justify-content: center;
+    background-image: url('/img/bg1.jpg');
+    padding-bottom: 160px;
+    padding-top: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1{
+    display: flex;
+    width: 100%;
+    font-size: 80px;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.theproblem{
+    display: flex;
+    justify-content: center;
+}
+.problemcontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #007765;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.problemcontent > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hero-block{
+    background-image: url('/img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 128px;
+    padding-top: 128px;
+}
+.herotext{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.PiedPiperCoin{
+    display: flex;
+    justify-content: center;
+}
+.logo2{
+    float: left;
+    margin-right: 50px;
+}
+.Piedcontent{
+    padding-left: 55px;
+    padding-right: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+.Piedcontent > p {
+    margin-top: 0px;
+}
+.theteam{
+    display: flex;
+    justify-content: center;
+}
+.teamcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.teamcontent > figure{
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.teamcontent > figure > figcaption{
+    text-align: center;
+}
+
+.name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+.post{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    padding-top: 48px;
+    padding-bottom: 64px;
+
+}
+.footcontent{
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+}
